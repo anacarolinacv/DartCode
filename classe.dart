@@ -6,7 +6,7 @@ class Animal {
   int validacao;
   final String _tipo;
 
-  Animal(this patas, int idade, String tipo) {
+  Animal(int patas = 4, int idade = 2, String tipo = ) {
     this.raca = raca;
     this.idade = idade;
     this.tipo = _tipo;
