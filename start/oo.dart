@@ -67,8 +67,6 @@ Animal definirSubtipo(String tipo) {
   throw 'Cant create $tipo';
 }
 
-
-
 void main() {
     final cachorro1 = definirSubtipo('cachorro');
     final gato1 = definirSubtipo('gato');

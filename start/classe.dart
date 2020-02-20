@@ -30,8 +30,6 @@ class Animal {
   String toString() => 'Animal com $patas patas e $idade de idade.';
 
 }
-
-
 void main() {
 
   var animal1 = Animal(4, 2);
